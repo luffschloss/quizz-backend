@@ -1,9 +1,9 @@
 const env = process.env;
 module.exports = {
-  HOST: env.DB_HOST || "localhost",
-  USER: env.DB_USER || "root",
-  PASSWORD: env.DB_PASSWORD || "root",
-  DB: env.DB_DBNAME || "quizz",
+  HOST: "sql12.freesqldatabase.com",
+  USER: "sql12672212",
+  PASSWORD: "HMTl8itJ9R",
+  DB: "sql12672212",
   dialect: env.DB_DIALECT || "mysql",
 
   pool: {
