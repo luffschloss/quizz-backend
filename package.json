@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app",
-    "reload:quizz": "cd .\\src\\database\\ && npx sequelize-cli db:drop --env test && npx sequelize-cli db:create --env test && npx sequelize-cli db:migrate --env test"
+    "reload:quizz": "cd .\\src\\database\\ && npx sequelize-cli db:drop --env test && npx sequelize-cli db:create --env test && npx sequelize-cli db:migrate --env test",
+    "vercel-build": "echo hello-world"
   },
   "keywords": [
     "node",
